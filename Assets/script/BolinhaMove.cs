@@ -28,7 +28,7 @@ public GameObject coin;
     {
         moveH = Input.GetAxis("Horizontal");
         moveV = Input.GetAxis("Vertical");
-        transform.position += new Vector3(moveH * velocidade * Time.deltaTime,0, moveV * velocidade * Time.deltaTime);
+        transform.position += new Vector3(moveV * velocidade * Time.deltaTime,0, -1 * moveH * velocidade * Time.deltaTime);
         
 
 
